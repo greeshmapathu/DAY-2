@@ -1,0 +1,36 @@
+/*Font-awesome integration*/
+ @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"); 
+/*Google font integration*/
+@import url('https://fonts.googleapis.com/css?family=Roboto'); 
+
+#contact{
+    background-color:#9c5959;
+    font-family: 'Roboto', sans-serif;
+}
+
+#contact .well{
+    
+    margin-top:30px;
+    border-radius:10;
+}
+
+#contact .form-control{
+    border-radius: 10px;
+    border:2px solid #130b0b;
+}
+
+#contact button{
+    border-radius:10px;
+    border:2px solid #1e1e1e;
+}
+
+#contact .row{
+    margin-bottom:30px;
+}
+
+@media (max-width: 768px) { 
+    #contact iframe {
+        margin-bottom: 25px;
+    }
+    
+}
